@@ -3,8 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Спецтех24</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	
 </head>
 <body>
 	<header class="page-header">
@@ -12,13 +14,13 @@
 			<a href="#" class="logo">
 				<img src="img/logo.png" alt="СпецТех" class="logo-img" />
 				<span class="logo-text-header"><b>Спецтех</b>24</span></a>
-				<nav class="main-nav">
-					<ul>
-						<li class="main-nav-item-header"><a href="#"></a>О компании</li>
-						<li class="main-nav-item-header"><a href="#"></a>Каталог</li>
-						<li class="main-nav-item-header"><a href="#"></a>Портфолио</li>
-						<li class="main-nav-item-header"><a href="#"></a>Контакты</li >
-						<li class="main-nav-item-header"><a href="#" class="order-call-header">Заказать звонок</a></li>
+				<nav >
+					<ul class="main-nav">
+						<li class="main-nav-item main-nav-item-header"><a href="#"></a>О компании</li>
+						<li class="main-nav-item main-nav-item-header"><a href="#"></a>Каталог</li>
+						<li class="main-nav-item main-nav-item-header"><a href="#"></a>Портфолио</li>
+						<li class="main-nav-item main-nav-item-header"><a href="#"></a>Контакты</li >
+						<li class="main-nav-item main-nav-item-header"><a href="#" class="order-call-header">Заказать звонок</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -44,11 +46,10 @@
 					<div class="main">
 					<div class="container clearfix">	
 						<div class="catalog_menu">
-						<img src="img/logo.png" alt="СпецТех" class="catalog_menu-logo" />
 							<h2 class="catalog_menu_title">Вся техника</h2>
 							<ul class="catalog_menu-items">
 								<li><a href="" class="catalog_menu-items-item">Гусеничные экскаваторы</a></li>
-								<li><a href="" class="catalog_menu-items-item">Колёсные экскаваторы</a></li>
+								<li><a href="" class="catalog_menu-items-item catalog_menu-items-item-active">Колёсные экскаваторы</a></li>
 								<li><a href="" class="catalog_menu-items-item">Мини-экскаваторы</a></li>
 								<li><a href="" class="catalog_menu-items-item">Автокраны</a></li>
 								<li><a href="" class="catalog_menu-items-item">Фронтальные погрузчики</a></li>
@@ -60,11 +61,11 @@
 						<div class="catalog_items ">
 							<section class="catalog-item ">
 								<h2 class="catalog-item-title">Колесный экскаватор Cat M315D</h2>
-								<div>
+								
 									<img src="img/catalog-items.jpg" alt="" class="catalog-item-picture">
-									<span >25 000/ месяц</span>
-								</div>
-								<ul class="portfolio-botton clearfix">
+									<b class="price">25 000/ месяц</b>
+								
+								<ul class="portfolio-botton ">
 									<li><a href="#" class="catalog-botton catalog-botton-rent">Арендовать</a></li>
 									<li ><a href="#" class="catalog-botton catalog-botton-info">Подробнее
 									</a></li>
@@ -74,11 +75,24 @@
 							<section class="catalog-item">
 
 								<h2 class="catalog-item-title">Колесный экскаватор Cat M315D</h2>
-								<div>
+								<img src="img/catalog-items.jpg" alt="" class="catalog-item-picture">
+									<b class="price" >25 000/ месяц</b>
+								
+								<ul class="portfolio-botton ">
+									<li><a href="#" class="catalog-botton catalog-botton-rent">Арендовать</a></li>
+									<li ><a href="#" class="catalog-botton catalog-botton-info">Подробнее
+									</a></li>
+								</ul>
+
+							</section>
+
+							<section class="catalog-item catalog-item-new">
+
+								<h2 class="catalog-item-title">Колесный экскаватор Cat M315D</h2>
+								<span class="tape tape-new">new</span>
 									<img src="img/catalog-items.jpg" alt="" class="catalog-item-picture">
-									<span>25 000/ месяц</span>
-								</div>
-								<ul class="portfolio-botton clearfix">
+									<b class="price">25 000/ месяц</b>
+								<ul class="portfolio-botton ">
 									<li><a href="#" class="catalog-botton catalog-botton-rent">Арендовать</a></li>
 									<li ><a href="#" class="catalog-botton catalog-botton-info">Подробнее
 									</a></li>
@@ -89,26 +103,9 @@
 							<section class="catalog-item">
 
 								<h2 class="catalog-item-title">Колесный экскаватор Cat M315D</h2>
-								<div>
 									<img src="img/catalog-items.jpg" alt="" class="catalog-item-picture">
-									<span>25 000/ месяц</span>
-								</div>
-								<ul class="portfolio-botton clearfix">
-									<li><a href="#" class="catalog-botton catalog-botton-rent">Арендовать</a></li>
-									<li ><a href="#" class="catalog-botton catalog-botton-info">Подробнее
-									</a></li>
-								</ul>
-
-							</section>
-
-							<section class="catalog-item">
-
-								<h2 class="catalog-item-title">Колесный экскаватор Cat M315D</h2>
-								<div class="catalog-item-product">
-									<img src="img/catalog-items.jpg" alt="" class="catalog-item-picture">
-									<d>25 000/ месяц</d>
-								<div>
-								<ul class="portfolio-botton clearfix">
+									<b class="price">25 000/ месяц</b>
+								<ul class="portfolio-botton">
 									<li><a href="#" class="catalog-botton catalog-botton-rent">Арендовать</a></li>
 									<li ><a href="#" class="catalog-botton catalog-botton-info">Подробнее
 									</a></li>
@@ -118,7 +115,7 @@
 						
 
 						<div class="number_page">
-								<a href="#" class="number_page-item number_page-item-one">1</a>
+								<a href="#" class="number_page-item number_page-item-active">1</a>
 								<a href="#" class="number_page-item">2</a>
 								<a href="#" class="number_page-item">3</a>
 								<a href="#" class="number_page-item">4</a>
@@ -131,14 +128,14 @@
 						<div class="container clearfix">
 						<h2 class="offers-title">Спецпредложения</h2>
 						
-						<section class="offers-items">
+						<section class="offers-items offers-items-sale">
 								
 								<h3 class="offers-item-title">Колесный экскаватор Cat M315D</h3>
-							
+								<span class="tape tape-sale">sale</span>
 									<img src="img/catalog-items.jpg" alt="" class="offers-item-picture">
-									<span><del>25 000</del> 25 000/ месяц</span>
+									<b class="price"><del class="old-price">25 000</del> 25 000/ месяц</b>
 								
-								<ul class=" portfolio-botton clearfix">
+								<ul class=" portfolio-botton">
 									<li><a href="#" class="catalog-botton catalog-botton-rent">Арендовать</a></li>
 									<li ><a href="#" class="catalog-botton catalog-botton-info">Подробнее
 									</a></li>
@@ -150,9 +147,9 @@
 							
 								<h3 class="offers-item-title">Колесный экскаватор Cat M315D</h3>
 									<img src="img/catalog-items.jpg" alt="" class="offers-item-picture">
-									<span><del>25 000</del> 25 000/ месяц</span>
+									<b class="price"><del class="old-price">25 000</del> 25 000/ месяц</b>
 								
-								<ul class=" portfolio-botton clearfix">
+								<ul class=" portfolio-botton ">
 									<li><a href="#" class="catalog-botton catalog-botton-rent">Арендовать</a></li>
 									<li ><a href="#" class="catalog-botton catalog-botton-info">Подробнее
 									</a></li>
@@ -165,9 +162,9 @@
 								<h3 class="offers-item-title">Колесный экскаватор Cat M315D</h3>
 							
 									<img src="img/catalog-items.jpg" alt="" class="offers-item-picture">
-									<span><del>25 000</del> 25 000/ месяц</span>
+									<b class="price"><del class="old-price">25 000</del> 25 000/ месяц</b>
 								
-								<ul class=" portfolio-botton clearfix">
+								<ul class=" portfolio-botton ">
 									<li><a href="#" class="catalog-botton catalog-botton-rent">Арендовать</a></li>
 									<li ><a href="#" class="catalog-botton catalog-botton-info">Подробнее
 									</a></li>
@@ -182,13 +179,13 @@
 						<a href="#" class="logo">
 							<img src="img/logo-footer.png" alt="" class="logo-img" />
 							<span class="logo-text-footer"><b>Спецтех</b>24</span></a>
-							<nav class="main-nav">
-								<ul>
-									<li class="main-nav-item-footer"><a href="#"></a>О компании</li>
-									<li class="main-nav-item-footer"><a href="#"></a>Каталог</li>
-									<li class="main-nav-item-footer"><a href="#"></a>Портфолио</li>
-									<li class="main-nav-item-footer"><a href="#"></a>Контакты</li>
-									<li class="main-nav-item-footer "><a href="#" class="order-call-footer">Заказать звонок</a></li>
+							<nav >
+								<ul class="main-nav">
+									<li class=" main-nav-item main-nav-item-footer"><a href="#"></a>О компании</li>
+									<li class="main-nav-item main-nav-item-footer"><a href="#"></a>Каталог</li>
+									<li class="main-nav-item main-nav-item-footer"><a href="#"></a>Портфолио</li>
+									<li class="main-nav-item main-nav-item-footer"><a href="#"></a>Контакты</li>
+									<li class="main-nav-item main-nav-item-footer "><a href="#" class="order-call-footer">Заказать звонок</a></li>
 								</ul>
 							</nav>
 						</div>
