@@ -278,14 +278,13 @@ padding-bottom: 40px;
   color: #ffffff;
   font-family: 'PT Sans', sans-serif;
   margin-left: 30px;
-}
+ }
+
 .portfolio-item{  
 background-repeat: no-repeat; 
 background-size: cover; 
 background-position: center; 
-height: 500px;
-position: relative;
-border: 10px solid #000;
+border-top: 10px solid #000;
 }
 .portfolio-item-wood{ 
   background-image: url(../img/house1.jpg); 
@@ -298,27 +297,19 @@ border: 10px solid #000;
 }
 .portfolio-item-info{
   background-color: #ffffff;
-  padding: 30px;
-  display: inline-block;
-  top: 100px;
-  left: 160px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  padding: 30px 26px 30px 30px ;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  margin-right: 620px;
 }
 .portfolio-item-info-title{
-  text-align: left;
   color: #000000;
   font-family: 'PT Sans', sans-serif;
-  font-size:  20px;
+  font-size: 20px;
   margin: 0;
-  font-weight: lighter;
-}
-.info-title-bold{
-font-weight: bold;
 }
 .button{
-
+  display: inline-block;
   background-color: #ffcd34;
   text-align: center;
   color: #000000;
@@ -330,18 +321,20 @@ font-weight: bold;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 15px;
-  padding-right: 30px;
+  padding-right: 35px;
+  margin-right: 20px;
 }
 .button:after{
   content: "";
   position: absolute;
   right: 15px;
   top: 10px;
+  left: 100px;
   background-size: contain;
 
   background-repeat: no-repeat;
-   width: 15px;
-  height: 15px;
+   width: 20px;
+  height: 20px;
   background-image: url(../img/arrow.svg);
 }
 .button:hover{
@@ -351,12 +344,14 @@ background-color: #ffd966;
 background-color: #f6bf16;
 }
 
-.info-text{
+.portfolio-info-text{
   font-family: 'PT Sans', sans-serif;
   color: #000000;
-  font-size: 15px;
+  font-size: 14px;
   text-align: left;
   line-height: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 .advice{
   background-color: #202e3b;
@@ -367,71 +362,182 @@ background-color: #f6bf16;
     font-size: 24px;
     font-weight: normal;
     text-align: left;
-    margin-left: 10px;
     font-family: 'PT Sans', sans-serif;
     padding-top: 40px;
   }
 .advice-consult-form{
-  border: 1px solid #ffcd34;
-  background-color: #202e3b;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding: 40px 0;
 }
 .advice-consult-btn{
   background-color: #ffcd34;
   color: #202e3b;
   font-size: 18px;
-  text-align: center;
+  margin-left: 15px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  border: none;
+  font-weight: bold;
   width: 220px;
-  height: 45px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 20px;
+   font-family: 'PT Sans', sans-serif;
+  
 }
-
+input[type="text"]{
+  background-color: #202e3b;
+  border: none;
+  border: 1px solid #ffcd34;
+  font-family: 'PT Sans', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 14px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  width: 220px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+   font-family: 'PT Sans', sans-serif;
+}
+input[type="text"]:first-child{
+  margin: 0;
+}
+.advice-form-active{
+  padding-right: 50px;
+  box-sizing: border-box;
+  position: relative;
+}
+.advice-form-active:after{
+  display: inline-block;
+   content: "";
+  position: absolute;
+   background-size: contain;
+  background-repeat: no-repeat;
+   width: 10px;
+  height: 10px;
+  background-image: url(../img/arrow_down.svg)
+}
 .plus{
   padding-top: 40px;
   padding-bottom: 50px;
-
-
 }
 .plus-item{
-  width: 25%;
+  width: 235px;
   float: left;
+  font-size: 13px;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 16px;
+  line-height: 20px;
+  margin-left: 15px;
+  padding-left: 60px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.plus-item::before{
-  display: inline-block;
-  content: "";
-  background-size: 100%;
-  padding-left: 60px; 
-  background-repeat: none;
+.plus-item:first-child{
+  margin: 0;
+}
+.plus-item:last-child{
+  width: 185px;
+  padding-left: 50px;
+}
+.plus-item-tools{
+  position: relative;
 }
 .plus-item-tools:before{
+  display: inline-block;
+  content: "";
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 10px;
+  left: -60px;  
   background-image: url(../img/tools.png);
   width: 40px;
   height: 40px;
-
 }
-
+.plus-item-worker{
+  position: relative; 
+}
 .plus-item-worker:before{
-    width: 46px;
-    height: 40px;
-    background-position: -98px -5px;
+   display: inline-block;
+  content: "";
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 10px;
+  left: -60px;  
+  background-image: url(../img/worker.png);
+  width: 46px;
+  height: 40px;
+    
+}
+.plus-item-border{
+  position: relative; 
 }
 .plus-item-border:before{
+  display: inline-block;
+  content: "";
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 10px;
+  left: -60px;  
+  background-image: url(../img/border.png);
   width: 42px;
     height: 40px;
-    background-position: -5px -5px;
+}
+.plus-item-operator{
+  position: relative; 
 }
 .plus-item-operator:before{
+  display: inline-block;
+  content: "";
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 10px;
+  left: -50px;  
+  background-image: url(../img/operator.png);
   width: 31px;
-    height: 40px;
-    background-position: -57px -5px;
+  height: 40px;
 }
-
+.advice:before{
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 15px;
+  background: linear-gradient(-45deg,
+      rgba(0, 0, 0, 0) 49.9%, 
+      #000000 49.9%, #000000 60%, 
+      rgba(0, 0, 0, 0) 60%
+      ),
+    linear-gradient(-45deg,
+      #000000 10%,
+     rgba(0, 0, 0, 0) 10%
+      );
+  background-size: 3em 3em;
+  background-color: #ffcd34;
+}
+main:before{
+    display: inline-block;
+  content: "";
+  width: 100%;
+  height: 15px;
+  background: linear-gradient(-45deg,
+      rgba(0, 0, 0, 0) 49.9%, 
+      #000000 49.9%, #000000 60%, 
+      rgba(0, 0, 0, 0) 60%
+      ),
+    linear-gradient(-45deg,
+      #000000 10%,
+     rgba(0, 0, 0, 0) 10%
+      );
+  background-size: 3em 3em;
+  background-color: #ffcd34;
+}
 
 
 
@@ -461,7 +567,7 @@ margin: 0;
 font-family: 'PT Sans', sans-serif; 
 font-size: 26px; 
 color: #ffcd34; 
-font-weight: normal; 
+font-weight: normal;
 
 } 
 .title{ 
@@ -786,6 +892,7 @@ background-color: #567999;
   margin: 0;
   font-size: 21px;
   margin-bottom: 30px;
+  width: 200px;
 }
 
 .page-footer{
