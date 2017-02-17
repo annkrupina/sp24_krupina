@@ -3,107 +3,114 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Спецтех24</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header class="page-header">
-	<div class="container">	
+	<div class="container clearfix">	
 		<a href="#" class="logo">
-			<img src="#" alt="" class="logo-img" />
-			<span class="logo"><b>Спецтех</b>24</span></a>
-			<nav class="main-nav">
-				<ul>
-					<li><a href="#"></a>О компании</li>
-					<li><a href="#"></a>Каталог</li>
-					<li><a href="#"></a>Портфолио</li>
-					<li><a href="#"></a>Контакты</li>
-					<li class="order-call"><a href="#">Заказать звонок</a></li>
+			<img src="img/logo.png" alt="" class="logo-img" />
+			<span class="logo-text-header"><b>Спецтех</b>24</span></a>
+			<nav>
+				<ul class="main-nav">
+					<li class="main-nav-item  main-nav-item-header"><a href="#"></a>О компании</li>
+					<li class="main-nav-item  main-nav-item-header"><a href="#"></a>Каталог</li>
+					<li class="main-nav-item  main-nav-item-header"><a href="#"></a>Портфолио</li>
+					<li class="main-nav-item  main-nav-item-header"><a href="#"></a>Контакты</li>
+					<li class="main-nav-item  main-nav-item-header" ><a href="#" class="order-call-header">Заказать звонок</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 	<main>	
-		<div class="main-title">
-			<div class="container">	
-				<h1>Контакты</h1>
-				<span class="main-title-slogan">
-					Свяжитесь с нами, и все будет хорошо.</span>
+		<div class="contact">
+			<div class="container clearfix">	
+				<div class="contact-info">
+				<h1 class="contact-title">Контакты</h1>
+				<span class="contact-title-slogan">
+					Свяжитесь с нами, и все будет хорошо.</span></div>
 					<div class="order">
 						<a href="#" class="order-botton">Мне нужна консультация</a>
 					</div>
 			</div>
 		</div>
-		<div class="container">
-			<div class="map"></div>
-			
+		<div class="main-contact">
+		<div class="container clearfix">
+			<div class="contact-map">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=wZZCHlrhmhOA5hVo1mS_q5JeMfyuuKKH&amp;width=620&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+			</div>
+			<div class="feedback">
 				<div class="address">
 					
 						<span class="phone"><strong>+7 (812) 212 85 06</strong></span>
 						<span class="mail"><strong>rent@spezteh.ru</strong></span>
 					
 				</div>
-						<div class="consult">
+						<div class="contact-consult">
 							
-								<h2 class="consult-title">Заказать консультацию по подбору подходящей техники</h2>
-								<form action="#" class="consult-form">
-									<input type="text" placeholder="Имя">
-									<input type="text" placeholder="Телефон для связи">
-									<input type="text" placeholder="Описание задачи(можно примерное)">
-									<button class="bconsult-btn">Получить консультацию</button>
+								<h4 class="contact-consult-title">Заказать консультацию по подбору подходящей техники</h4>
+								<form action="#" class="contact-form">
+									<input type="text" class="contact-form-item" placeholder="Имя">
+									<input type="text" class="contact-form-item" placeholder="Телефон для связи">
+									<input type="text" class="contact-form-item" placeholder="Описание задачи(можно примерное)">
+									<input type="submit" class="contact-consult-btn" value="Получить консультацию">
 								</form>
 						</div>
+						</div>
 		</div>
-
-					<section class="reviews">
-							<div class="container">
-								<h2>Отзывы</h2>
-								<div class="about-reviews-item">
-									<img src="#" alt="Оля Молния">
-									<blockquote>
+		</div>
+			<section class="contact-reviews">
+							<div class="container clearfix">
+								<h2 class="contact-reviews-title">Отзывы</h2>
+								<div class="contact-reviews-item">
+									<img src="img/reviews1.jpg" alt="Оля Молния" class="contact-reviews-img">
+									<blockquote class="contact-reviews-blockquote">
 										Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют работу быстро и еще у них отличное чувство юмора!Благодарим и рекомендуем.
-										<cite>Оля Молния</cite>
+										<cite class="contact-reviews-cite">Оля Молния</cite>
 									</blockquote>
 								</div>
-								<div class="about-reviews-item">
-									<img src="#" alt="Оля Молния">
-									<blockquote>
+								<div class="contact-reviews-item">
+									<img src="img/reviews2.jpg" alt="Оля Молния" class="contact-reviews-img">
+									<blockquote class="contact-reviews-blockquote">
 										Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют работу быстро и еще у них отличное чувство юмора!Благодарим и рекомендуем.
-										<cite>Оля Молния</cite>
+										<cite class="contact-reviews-cite">Оля Молния</cite>
 									</blockquote>
 								</div>
-								<div class="about-reviews-item">
-									<img src="#" alt="Оля Молния">
-									<blockquote>
+								<div class="contact-reviews-item">
+									<img src="img/reviews3.jpg" alt="Оля Молния" class="contact-reviews-img">
+									<blockquote class="contact-reviews-blockquote">
 										Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют работу быстро и еще у них отличное чувство юмора!Благодарим и рекомендуем.
-										<cite>Оля Молния</cite>
+										<cite class="contact-reviews-cite">Оля Молния</cite>
 									</blockquote>
 								</div>
-								<div class="about-reviews-item">
-									<img src="#" alt="Оля Молния">
-									<blockquote>
+								<div class="contact-reviews-item">
+									<img src="img/reviews4.jpg" alt="Оля Молния" class="contact-reviews-img">
+									<blockquote class="contact-reviews-blockquote">
 										Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют работу быстро и еще у них отличное чувство юмора!Благодарим и рекомендуем.
-										<cite>Оля Молния</cite>
+										<cite class="contact-reviews-cite">Оля Молния</cite>
 									</blockquote>
 								</div>
 
 							</div>
 						</section>
-
 					</main>
 					<footer class="page-footer">
-						<div class="container">	
-							<a href="#" class="logo">
-								<img src="#" alt="" class="logo-img" />
-								<span class="logo"><b>Спецтех</b>24</span></a>
-								<nav class="main-nav">
-									<ul>
-										<li><a href="#"></a>О компании</li>
-										<li><a href="#"></a>Каталог</li>
-										<li><a href="#"></a>Портфолио</li>
-										<li><a href="#"></a>Контакты</li>
-										<li class="order-call"><a href="#">Заказать звонок</a></li>
-									</ul>
-								</nav>
-							</div>
-						</footer>
-</body>
+					<div class="container clearfix">	
+						<a href="#" class="logo">
+							<img src="img/logo-footer.png" alt="" class="logo-img" />
+							<span class="logo-text-footer"><b>Спецтех</b>24</span></a>
+							<nav >
+								<ul class="main-nav">
+									<li class="main-nav-item  main-nav-item-footer"><a href="#" ></a>О компании</li>
+									<li class="main-nav-item  main-nav-item-footer"><a href="#" ></a>Каталог</li>
+									<li class="main-nav-item  main-nav-item-footer"><a href="#" ></a>Портфолио</li>
+									<li class="main-nav-item  main-nav-item-footer"><a href="#"></a>Контакты</li>
+									<li class="main-nav-item  main-nav-item-footer"><a href="#" class="order-call-footer">Заказать звонок</a></li>
+								</ul>
+							</nav>
+						</div>
+					</footer>
+				</body>
+</html>
